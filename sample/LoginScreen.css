@@ -1,0 +1,28 @@
+/*LOGIN SCREEN*/
+#border {
+    -fx-padding: 50px;
+    -fx-alignment: center;
+}
+#logbox{
+    -fx-spacing: 20px;
+    -fx-padding: 20px;
+    -fx-alignment: center;
+    -fx-background-radius: 5px;
+}
+#button{
+    -fx-background-color: #87ceeb;
+}
+#button:hover{
+    -fx-background-color: deepskyblue;
+}
+
+#login{
+    -fx-font-size: 20px;
+    -fx-font-weight: bolder;
+    -fx-text-fill: white;
+}
+#mainhead{
+    -fx-font-weight: bolder;
+    -fx-font-size: 30px;
+    -fx-text-fill: white;
+}

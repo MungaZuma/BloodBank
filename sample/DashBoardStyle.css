@@ -1,0 +1,63 @@
+.root {
+    -fx-background-color: ghostwhite;
+}
+
+.button {
+    -fx-background-color: #ff0000;
+    -fx-font-size: 15px;
+    -fx-text-fill: white;
+    -fx-border-width: 2px;
+    -fx-font-weight: bold;
+}
+
+.button:hover {
+    -fx-background-color: #ffffff;
+    /*-fx-scale-x: 1.1;*/
+    /*-fx-scale-y: 1.1;*/
+    /*-fx-border-color: black;*/
+    /*-fx-border-width: 2px;*/
+    -fx-text-fill: black;
+
+}
+
+#dash_vbox {
+    -fx-background-color: #ff0000;
+    -fx-padding: 2px;
+    -fx-spacing: 5px;
+}
+
+.text-field {
+    -fx-pref-width: 150px;
+    -fx-pref-height: 50px;
+    -fx-text-fill: black;
+    -fx-font-size: 16;
+}
+/*#Cancel,#edit,#save{*/
+    /**/
+/*}*/
+#Header1, #Header2 {
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+}
+
+.combo-box {
+    -fx-pref-width: 150px;
+    -fx-pref-height: 50px;
+    -fx-border-width: 2px;
+    -fx-border-color: black;
+}
+.combo-box:hover{
+    -fx-border-color: red;
+}
+.separator{
+    -fx-pref-width: 10px;
+}
+.text-field{
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+}
+.text-field:hover{
+    -fx-border-color: red;
+}
